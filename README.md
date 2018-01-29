@@ -1,4 +1,4 @@
-# Sunset
+# Sunset Detector
 
 A image detector that predicts if an image contains a sunset scene using SVM and CNN Edit
 

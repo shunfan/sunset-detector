@@ -1,6 +1,6 @@
 # Sunset Detector
 
-A image detector that predicts if an image contains a sunset scene using SVM and CNN Edit
+An image detector that predicts if an image contains a sunset scene using SVM and CNN Edit
 
 ## Final Report
 

@@ -6,9 +6,8 @@
 
 clc;
 
-% image.mat - images that have size of 227x227
-if exist('images.mat', 'file') == 0
-    rootDir = '../images_resized/';
+if exist('images227.mat', 'file') == 0
+    rootDir = '../images227/';
     trainDir = [rootDir 'train'];
     validateDir = [rootDir 'validate'];
     testDir = [rootDir 'test'];
@@ -28,9 +27,9 @@ if exist('images.mat', 'file') == 0
 
     fprintf('Read images into datastores\n');
 
-    save('images.mat', 'trainImages', 'validateImages', 'testImages');
+    save('images227.mat', 'trainImages', 'validateImages', 'testImages');
 else
-    load('images.mat');
+    load('images227.mat');
 end
 
 %% Configure the Network
